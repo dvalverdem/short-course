@@ -40,7 +40,7 @@ bake(file="profile_rho.rds",{
                            transform=TRUE,
                            rw.sd=rw.sd(
                                b1=0.02, b2=0.02, b3=0.02, b4=0.02, b5=0.02, b6=0.02,
-                               psi=0.02, tau=0.02, sigma_dem=0.02, sigma_env=0.02,
+                               psi=0.02, tau=0.01, sigma_dem=0.01, sigma_env=0.01,
                                IO_0=ivp(0.2), SO_0=ivp(0.2)
                            ))
                 mf <- mif2(mf,Np=5000,Nmif=100,cooling.fraction.50=0.1)
